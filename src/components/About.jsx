@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className="max-w-screen-lg mx-auto px-6 md:px-8 py-16 flex flex-col justify-center items-center text-center gap-6 z-10">
-        <h1 className="text-3xl md:text-5xl font-bold animate-fadeIn bg-gradient-to-r from-primary via-black to-primary bg-clip-text text-transparent leading-tight">
+        <h1 className="text-3xl md:text-5xl font-bold animate-fadeIn text-primary">
           About Us
         </h1>
         <p className="text-base md:text-xl text-primary-dark max-w-4xl leading-relaxed">
