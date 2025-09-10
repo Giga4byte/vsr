@@ -1,12 +1,28 @@
-# Visual Speech Recognition
+# Visual Speech Recognition (VSR)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project implements a **Visual Speech Recognition** system that utilizes computer vision techniques to recognize speech from silent lip movements in video sequences.
 
-Currently, two official plugins are available:
+## Deployed Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The live, deployed version of the Visual Speech Recognition system can be accessed at:
 
-## Expanding the ESLint configuration
+**[Deployed Website](https://vsr-blond.vercel.app/)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Overview
+
+Visual Speech Recognition is a cutting-edge approach that recognizes speech by analyzing lip movements from video input. This system can be used in various fields, including accessibility for the hearing impaired, security systems, and more.
+
+## Key Features
+
+- **Lip Reading**: Recognizes spoken words from lip movements.
+- **Real-Time Processing**: Uses a deep learning model to process video frames in real time.
+- **Accuracy**: The model has been trained on large datasets for high accuracy in speech recognition.
+
+## Installation
+
+Follow these steps to get the project running on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/visual-speech-recognition.git
